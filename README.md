@@ -24,8 +24,8 @@ Or install it yourself as:
 
 ## Usage
 
-Type/n
-<code>$ beer-me</code>/n
+Type
+<code>$ beer-me</code> 
 follow the prompts
 
 ## Development
