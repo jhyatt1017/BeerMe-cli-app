@@ -25,7 +25,7 @@ Or install it yourself as:
 ## Usage
 
 Type
-$ beer-me
+<code>$ gem install beer_me</code>
 follow the prompts
 
 ## Development
