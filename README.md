@@ -24,8 +24,8 @@ Or install it yourself as:
 
 ## Usage
 
-Type
-<code>$ gem install beer_me</code>
+Type/n
+<code>$ beer-me</code>/n
 follow the prompts
 
 ## Development
