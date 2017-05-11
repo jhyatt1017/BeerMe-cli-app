@@ -4,6 +4,8 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
+This is my gem and displays info on the top ten beers as ranked on https://beeradvocate.com
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +24,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Type
+$ beer-me
+follow the prompts
 
 ## Development
 
