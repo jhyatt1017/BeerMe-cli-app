@@ -1,9 +1,5 @@
 # BeerMe
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/beer_me`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 This is my gem and displays info on the top ten beers as ranked on https://beeradvocate.com
 
 ## Installation
