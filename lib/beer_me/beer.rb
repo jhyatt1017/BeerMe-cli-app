@@ -8,8 +8,7 @@ class BeerMe::Beer
 
 #return all beer objects with the style passed in
   def self.find_by_style(style)
-    input = @@all.each.select { |beer| beer.style == style }
-    input
+    @@all.each.select { |beer| beer.style == style }
   end
 
 # Initializes with an argument of beer_hash.
