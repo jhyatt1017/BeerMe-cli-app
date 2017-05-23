@@ -2,6 +2,10 @@
 class BeerMe::Scraper
   ROOT_URL = "https://www.beeradvocate.com"
 
+  def self.get_beers
+    BeerMe::Scraper.scrape_beers.each { |hash| BeerMe::Beer.new(hash) }
+  end
+
 # Scrape_beers accepts an argument of the starting beers to scrape,
 # and modify cli to permit user to choose what beer out of the top ten they would like more info about.
   def self.scrape_beers
