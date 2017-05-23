@@ -1,8 +1,11 @@
+require 'pry'
 # First defines the CLI class thats responsible for all the input and output.
 class BeerMe::CLI
 
 # Displays menu and asking for input from user
   def self.start
+    BeerMe::Scraper.get_beers
+    binding.pry
     menu
     get_input
   end
