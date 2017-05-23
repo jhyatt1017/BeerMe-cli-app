@@ -5,7 +5,6 @@ class BeerMe::CLI
 # Displays menu and asking for input from user
   def self.start
     BeerMe::Scraper.get_beers
-    binding.pry
     menu
     get_input
   end
