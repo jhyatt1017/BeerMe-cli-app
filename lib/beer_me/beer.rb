@@ -6,6 +6,15 @@ class BeerMe::Beer
 # A class veriable called @@all that is equal to an empty array.
   @@all=[]
 
+#return all beer objects with the name passed in
+  def self.find_by_name(name)
+    style = @@all.detect { |beer| beer.name.downcase == name.downcase }
+      if style.nil?
+        style = self.new(name)
+      end
+      style
+    end
+
 # Initializes with an argument of beer_hash.
 # Adds the new beer to an array called @@all.
   def initialize(beer_hash)
@@ -25,9 +34,6 @@ class BeerMe::Beer
 
 # Calls @@all class veriable and make sure its not = to 0 and if it is calls Scraper to iterate and finally calls @@all again.
   def self.all
-    if @@all.count==0
-      BeerMe::Scraper.scrape_beers.each { |hash| BeerMe::Beer.new(hash) }
-    end
     @@all
   end
 end
