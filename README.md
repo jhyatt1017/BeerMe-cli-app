@@ -27,7 +27,7 @@ follow the prompts
 ## Development
 
 Welcome to BeerMe.
-This is a command line interface app(CLI) I created for my first project for the flatiron school.  This app scrpaes data off of beeradvocate.com and give you information on the top 10 beers in the world.  It allows you to choose a beer and get all the nessary infformation you could want about the beer.  Please feel free to try it out and give any feedback that you may have.
+This is a command line interface app(CLI) I created for my first project for the flatiron school.  This app scrapes data off of beeradvocate.com and give you information on the top 10 beers in the world.  It allows you to choose a beer and get all the nessary information you could want about the beer.  Please feel free to try it out and give any feedback that you may have.
 
 ## Contributing
 
